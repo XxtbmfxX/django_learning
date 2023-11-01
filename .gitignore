@@ -1,0 +1,48 @@
+# Entornos virtuales
+venv/
+.env/
+*/env
+env/
+
+# Archivos de configuración locales
+*.env
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Archivos de configuración generados por IDEs y editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos de logs
+*.log
+
+# Archivos de caché y migraciones
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.bak
+*.swp
+*.bak
+*.tmp
+
+# Carpeta de media (si la utilizas para archivos subidos por el usuario)
+media/
+
+# Carpeta de static (si la utilizas para archivos estáticos)
+static/
+
+# Si usas Windows, puedes añadir estas líneas para evitar archivos del sistema
+Thumbs.db
+Desktop.ini
+
+# Si usas macOS, puedes añadir esta línea para evitar archivos del sistema
+.DS_Store
+
+# Si usas Linux, puedes añadir esta línea para evitar archivos temporales
+*~
